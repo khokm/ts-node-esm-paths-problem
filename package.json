@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node --loader ./loader.js src/main.ts"
+    "start": "node --experimental-specifier-resolution=node --loader ts-paths-esm-loader src/main.ts"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.16.3",
-    "ts-node": "^10.9.1",
-    "tsconfig-paths": "^4.2.0"
+    "ts-paths-esm-loader": "^1.4.3"
   }
 }
